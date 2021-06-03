@@ -1,0 +1,279 @@
+:root {
+--White: hsl(0, 0%, 100%);
+--Black: hsl(0, 0%, 0%);
+--DarkGray: hsl(0, 0%, 55%);
+--VeryDarkGray: hsl(0, 0%, 41%);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+div.black-scr-menu {
+    background-color: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 600%;
+    z-index: 2;
+    display:none;
+}
+
+
+
+div.box1 {
+    background-image: url(/images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 50rem;
+}
+
+div.box1 .navbar {
+    display: flex;
+
+    /* justify-content: center;
+    align-content: center;  */
+    height: 10rem;
+}
+
+.navbar img#logo {
+    position: absolute;
+    top: 3rem;
+    left: 5%;
+    z-index: 2;
+}
+
+.navbar .ham {
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: auto;
+    right: 5%;
+    top: 3.3rem;
+
+}
+
+.navbar #ham-close{
+    background-color: transparent;
+    border: none;
+    position: absolute;
+    left: auto;
+    right: 5%;
+    top: 3.3rem;
+    z-index: 2;
+    display: none;
+}
+
+#nav-ul{
+    z-index: 2;
+    list-style: none;
+    position: absolute;
+    top: 15rem;
+    left: 5rem;
+    display: none;
+}
+
+#nav-ul li {
+    font-family: "Josefin sans" , sans-serif;
+    font-size: 2rem;
+    font-weight: lighter;
+    color: #fff;
+    line-height:3.2rem;
+    text-transform: uppercase;
+
+}
+
+div.box-for-text {
+    border: 2px solid white;
+    width: 80%;
+    margin: auto;
+    padding: 1.5rem;
+    position: absolute;
+    top:15rem;
+    left: 0;
+    right: 0;
+}
+
+div.box-for-text h1 {
+    font-family: "Josefin Sans" , sans serif ;
+    font-weight: lighter;
+    font-size: 3rem;
+    color: #fff;
+    text-transform: uppercase;
+    width: 95%;
+    position:relative;
+    top: 0;
+    left: 0;
+    bottom: 0;
+}
+
+div.box2 {
+    /* margin-top: 8rem; */
+    display: flex;
+    flex-direction: column;
+}
+
+  img#img-2  {
+  display: block;
+  width: 80% ;  
+  margin: 8rem auto 5rem auto ;
+}
+
+div.box2 h1 {
+    font-family: "Josefin Sans" , sans serif ;
+    font-weight: lighter;
+    font-size: 2.2rem;
+    color:  black;
+    text-transform: uppercase;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+   line-height: 2.5rem;
+}
+
+div.box2 p {
+    margin: 1rem auto  0 auto ;
+    text-align: center;
+    width: 70%;
+    line-height: 25px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: var(--DarkGray);
+    font-family: "Alata" , sans-serif;
+}
+
+div.box-3 {
+    display: grid;
+    width: 85%;
+    margin: auto;
+    grid-template-rows: repeat(9 , 10rem);
+    row-gap: 2rem;
+}
+
+div.box-3 h1 {
+    font-family: "Josefin Sans" , sans serif ;
+    font-weight: lighter;
+    font-size: 2.2rem;
+    color:  black;
+    text-transform: uppercase;
+    width: 70%;
+    text-align: center;
+    margin:auto;
+    line-height: 2.5rem;
+    position: relative;
+    top: 2rem;
+}
+h2 {
+    font-family: "Josefin Sans" , sans serif ;
+    font-weight: lighter;
+    font-size: 2rem;
+    text-transform: uppercase;
+    width: 40%;
+    color: white;
+    position: relative;
+    left: 3.2rem;
+    top: 4rem;
+}
+
+div.sec1 {
+    background-image: url(images/mobile/image-deep-earth.jpg) ;
+    background-size:100% 100%;
+}
+
+div.sec2 {
+    background-image: url(images/mobile/image-night-arcade.jpg);
+    background-size:100% 100%;
+}
+
+div.sec3 {
+    background-image: url(images/mobile/image-soccer-team.jpg);
+    background-size:100% 100%;
+}
+
+div.sec4 {
+    background-image: url(images/mobile/image-grid.jpg);
+    background-size:100% 100%;
+}
+
+div.sec5 {
+    background-image: url(images/mobile/image-from-above.jpg);
+    background-size:100% 100%;
+}
+
+div.sec6 {
+    background-image: url(images/mobile/image-pocket-borealis.jpg);
+    background-size:100% 100%;
+}
+
+div.sec7{
+    background-image: url(images/mobile/image-curiosity.jpg);
+    background-size:100% 100%;
+}
+
+div.sec8 {
+    background-image: url(images/mobile/image-fisheye.jpg);
+    background-size:100% 100%;
+}
+
+button.see-all {
+    border: 2px solid black;
+    font-family: "Josefin sans" , sans-serif ;
+    text-transform: uppercase;
+    color: black;
+    background-color: transparent;
+    font-size: 16px;
+    font-weight: bolder;
+    height: 3rem;
+    width: 11rem;
+    margin: auto;
+}
+
+
+footer {
+    background-color: black;
+    color: #fff;
+    font-family: "Alata" , sans-serif;
+    margin-top : 5rem;
+}
+
+#footer-logo{
+     display: block;
+     margin: 3rem auto
+
+}
+
+footer ul {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+footer ul li {
+  text-align: center;
+  line-height: 3rem;
+}
+
+div.social-media {
+    display: flex;
+    justify-content:center;
+}
+
+div.social-media img {
+    margin: 0.5rem; 
+}
+
+.footer-p {
+    color: var(--DarkGray);
+    font-size: 16px;
+    text-align: center;
+    margin: 2rem;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
