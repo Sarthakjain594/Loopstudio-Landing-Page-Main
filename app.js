@@ -1,15 +1,15 @@
 let hambtn = document.querySelector(".ham");
 let container = document.querySelector(".container");
 let menuscreen = document.querySelector(".black-scr-menu");
-let closebtn = document.querySelector(".ham-close");
+let closebtn = document.querySelector("#ham-close");
 let menuul = document.querySelector("#nav-ul")
 
 hambtn.addEventListener("click" , ()=> {
-    if ( menuscreen.style.display === "none") {
+    
         menuscreen.style.display = "block"
         closebtn.style.display = "block"
         menuul.style.display = "block"
-    }
+    
 });
 
 closebtn.addEventListener("click" , ()=>{
